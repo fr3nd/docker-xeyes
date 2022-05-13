@@ -1,5 +1,6 @@
 FROM debian:jessie
-MAINTAINER Carles Amigó, fr3nd@fr3nd.net
+
+LABEL org.opencontainers.image.authors="Carles Amigó, fr3nd@fr3nd.net"
 
 RUN apt-get update && apt-get install -y \
       x11-apps \
